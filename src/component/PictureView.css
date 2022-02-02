@@ -1,0 +1,11 @@
+.pictureview-container {
+    overflow: auto;
+    height: fit-content;
+}
+
+.title {
+    position: absolute;
+    color: white;
+    right: 0px;
+    bottom: 0px;
+}
