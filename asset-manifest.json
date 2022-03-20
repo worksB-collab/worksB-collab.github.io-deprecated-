@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/worksB-collab.github.io/static/css/main.66cc07b6.css",
-    "main.js": "/worksB-collab.github.io/static/js/main.dd06e3ab.js",
-    "static/js/787.ffd9c12e.chunk.js": "/worksB-collab.github.io/static/js/787.ffd9c12e.chunk.js",
-    "static/media/flirt2.jpg": "/worksB-collab.github.io/static/media/flirt2.ff2c4827a3dd0ad31918.jpg",
-    "static/media/flirt4.jpg": "/worksB-collab.github.io/static/media/flirt4.ce3280dd55a8ee4028ff.jpg",
-    "static/media/flirt3.jpg": "/worksB-collab.github.io/static/media/flirt3.fd22e1b30dc27225352f.jpg",
-    "static/media/flirt.jpg": "/worksB-collab.github.io/static/media/flirt.c2d9060ffd678fbd1d31.jpg",
-    "static/media/love.png": "/worksB-collab.github.io/static/media/love.95b01f1b2185e825c610.png",
-    "index.html": "/worksB-collab.github.io/index.html",
-    "main.66cc07b6.css.map": "/worksB-collab.github.io/static/css/main.66cc07b6.css.map",
-    "main.dd06e3ab.js.map": "/worksB-collab.github.io/static/js/main.dd06e3ab.js.map",
-    "787.ffd9c12e.chunk.js.map": "/worksB-collab.github.io/static/js/787.ffd9c12e.chunk.js.map"
+    "main.css": "./static/css/main.66cc07b6.css",
+    "main.js": "./static/js/main.c1cdeaf5.js",
+    "static/js/787.ffd9c12e.chunk.js": "./static/js/787.ffd9c12e.chunk.js",
+    "static/media/flirt2.jpg": "./static/media/flirt2.ff2c4827a3dd0ad31918.jpg",
+    "static/media/flirt4.jpg": "./static/media/flirt4.ce3280dd55a8ee4028ff.jpg",
+    "static/media/flirt3.jpg": "./static/media/flirt3.fd22e1b30dc27225352f.jpg",
+    "static/media/flirt.jpg": "./static/media/flirt.c2d9060ffd678fbd1d31.jpg",
+    "static/media/love.png": "./static/media/love.95b01f1b2185e825c610.png",
+    "index.html": "./index.html",
+    "main.66cc07b6.css.map": "./static/css/main.66cc07b6.css.map",
+    "main.c1cdeaf5.js.map": "./static/js/main.c1cdeaf5.js.map",
+    "787.ffd9c12e.chunk.js.map": "./static/js/787.ffd9c12e.chunk.js.map"
   },
   "entrypoints": [
-    "/worksB-collab.github.io/static/css/main.66cc07b6.css",
-    "/worksB-collab.github.io/static/js/main.dd06e3ab.js"
+    "static/css/main.66cc07b6.css",
+    "static/js/main.c1cdeaf5.js"
   ]
 }
