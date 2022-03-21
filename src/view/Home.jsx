@@ -5,17 +5,21 @@ import PictureView from "../component/PictureView";
 import CardView from "../component/CardView";
 import PageCarousel from "../component/PageCarousel";
 import Footer from "../component/Footer";
+import Header from "../component/Header";
+import flirt2 from "../image/flirt2.jpg";
+import flirt3 from "../image/flirt3.jpg";
+import flirt4 from "../image/flirt4.jpg";
 
 function Home() {
     return (
         <div className="Home">
-            <img src={logo} className="App-logo" alt="logo"/>
-            <PageNavbar></PageNavbar>
-            <TitleJumbotron></TitleJumbotron>
-            <PictureView></PictureView>
-            <CardView></CardView>
-            <PageCarousel></PageCarousel>
-            <Footer></Footer>
+            <Header/>
+            {/*<PictureView></PictureView>*/}
+            <PageCarousel src={flirt2}/>
+            <PageCarousel src={flirt3}/>
+            <PageCarousel src={flirt4}/>
+            <CardView/>
+            <Footer/>
         </div>
     );
 }

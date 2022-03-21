@@ -1,11 +1,36 @@
 .pictureview-container {
-    overflow: auto;
-    height: fit-content;
+    position: relative;
+    text-align: center;
 }
 
-.title {
+.pictureview {
+    background-image: /*linear-gradient(90deg, rgba(255,255,255, 0.2),rgba(255,255,255,0.8)),*/ url('../image/flirt.jpg');
+    width: 100%;
+    height: 40rem;
+    background-size: cover;
+}
+
+.text-over-img {
+    width: content-box;
+    background-color: rgb(255, 255, 255, .7);
+    padding: 1rem 7rem 2rem 3rem;
     position: absolute;
-    color: white;
-    right: 0px;
-    bottom: 0px;
+    right: 0;
+    top: 63%;
+    font-size: 30px;
+    text-align: left;
+    font-family: monospace;
+}
+
+.btn-action {
+    width: content-box;
+    background-color: rgb(245, 107, 240);
+    position: absolute;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    border-radius: unset;
+    border: 0;
+    right: 1rem;
+    top: 81.5%;
+    font-family: sans-serif;
 }

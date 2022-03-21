@@ -1,10 +1,12 @@
 import React from 'react';
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
+import logo from "../image/love.png";
 
-const PageNavbar = function () {
+const Header = function () {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" type="light">
             <Container>
+                <img src={logo} className="App-logo" alt="logo"/>
                 <Navbar.Brand href="#home">Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -27,4 +29,4 @@ const PageNavbar = function () {
     );
 }
 
-export default PageNavbar;
+export default Header;
